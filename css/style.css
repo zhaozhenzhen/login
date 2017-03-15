@@ -1,0 +1,206 @@
+body {
+  background: #fafafa; }
+
+.header {
+  height: 60px;
+  background: #0097cf; }
+  .header .head {
+    width: 80%;
+    margin: 0 auto; }
+  .header .clip {
+    font-size: 18px;
+    height: 100%;
+    line-height: 60px;
+    color: #ffffff;
+    background: url("../images/1_03.jpg") no-repeat left;
+    padding-left: 125px; }
+  .header .list ul li {
+    font-size: 12px; }
+    .header .list ul li i {
+      margin-right: 3px; }
+    .header .list ul li a {
+      padding-top: 21px;
+      color: #ffffff; }
+  .header .list .active {
+    background: #0088ba; }
+  .header .right {
+    float: right;
+    padding-top: 22px;
+    color: #ffffff; }
+    .header .right span {
+      color: #666; }
+
+.section {
+  width: 80%;
+  height: 1900px;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  margin-left: 10%; }
+  .section .navbar-brand {
+    color: blue; }
+  .section .navbar .search input {
+    width: 300px; }
+  .section .navbar .blue {
+    background: #f6ac00;
+    color: #ffffff;
+    border: none; }
+  .section .main {
+    height: 236px;
+    width: 100%; }
+    .section .main dl {
+      float: left;
+      margin-left: 30px; }
+      .section .main dl dd {
+        margin-top: 7px;
+        text-align: center; }
+    .section .main .midd {
+      width: 36%;
+      margin-left: 4%;
+      padding-bottom: 10px;
+      background: #fcfcfe; }
+      .section .main .midd h4 {
+        font-weight: bold; }
+      .section .main .midd .list li {
+        float: left;
+        padding: 5px 7px;
+        font-size: 12px; }
+    .section .main .right {
+      margin-left: 3%;
+      width: 30%;
+      height: 170px;
+      background: #fcfcfe;
+      position: relative; }
+      .section .main .right ul li {
+        float: left; }
+      .section .main .right h4 {
+        height: 30px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 30px;
+        padding-left: 10px;
+        color: #0097cf;
+        border-bottom: 1px solid #cccccc; }
+      .section .main .right button {
+        padding: 5px;
+        border: 1px solid #cccccc;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: #ededed;
+        position: relative; }
+        .section .main .right button .dele {
+          position: absolute;
+          top: -9px;
+          right: -9px;
+          width: 16px;
+          background: #f4c600;
+          color: #ffffff;
+          border-radius: 10px;
+          opacity: 0.8;
+          text-align: center; }
+      .section .main .right .text {
+        position: absolute;
+        bottom: 0px;
+        right: 10px;
+        display: none; }
+      .section .main .right .input {
+        padding: 5px;
+        border: 1px solid #0097cf;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        background: #ededed;
+        color: #0097cf;
+        display: none; }
+        .section .main .right .input input {
+          border: none;
+          background: none; }
+  .section .xin {
+    width: 100%;
+    height: 222px;
+    float: left;
+    padding-left: 50px; }
+    .section .xin .caption {
+      font-size: 14px;
+      font-weight: bold;
+      color: #414141; }
+    .section .xin .tab tr {
+      font-size: 12px;
+      height: 30px; }
+    .section .xin .tab td {
+      width: 50px;
+      border: none; }
+    .section .xin .left_copy li {
+      width: 120px;
+      text-align: center; }
+    .section .xin .left_copy .active {
+      border-top: 1px solid blue; }
+      .section .xin .left_copy .active a {
+        color: blue; }
+  .section .min {
+    width: 100%;
+    height: 160px; }
+  .section .zhang {
+    width: 100%;
+    height: 100px;
+    float: left; }
+    .section .zhang .caption {
+      font-size: 14px;
+      font-weight: bold;
+      color: #414141;
+      padding-left: 50px; }
+    .section .zhang .tab tr {
+      font-size: 12px;
+      height: 30px; }
+    .section .zhang .tab td {
+      width: 200px;
+      height: 20px;
+      border: none; }
+  .section .icon {
+    height: 160px;
+    width: 100%;
+    clear: both; }
+    .section .icon dl {
+      float: left;
+      width: 10%;
+      text-align: center; }
+    .section .icon dd {
+      margin-top: 5px; }
+    .section .icon h4 {
+      font-size: 14px;
+      font-weight: bold;
+      padding-left: 20px; }
+    .section .icon h5 {
+      width: 100%;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 12px; }
+  .section .box {
+    margin-left: 50px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    margin-top: 20px; }
+    .section .box td {
+      text-align: center; }
+    .section .box .copy {
+      font-weight: bold;
+      font-size: 12px; }
+  .section .record {
+    width: 95%;
+    margin-left: 5px; }
+    .section .record h3 {
+      font-size: 14px;
+      font-weight: bold;
+      margin-left: 20px;
+      margin-bottom: 10px; }
+    .section .record .table {
+      margin-left: 50px;
+      text-align: center;
+      border: 1px solid #ccc; }
+      .section .record .table td {
+        height: 30px; }
+
+/*# sourceMappingURL=style.css.map */
